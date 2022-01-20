@@ -16,13 +16,13 @@ form.addEventListener("submit", e => {
     if (tfirstName === '') {
         errorFunc(firstName, 'First Name cannot empty');
     } else {
-        sucessFunc(firstName);
+        successFunc(firstName);
     }
 
     if (tlastName === '') {
         errorFunc(lastName, 'Last Name cannot empty');
     } else {
-        sucessFunc(lastName);
+        successFunc(lastName);
     }
 
     if (temail === '') {
@@ -31,13 +31,13 @@ form.addEventListener("submit", e => {
         errorFunc(email, 'Not a valid email adress')
 
     } else {
-        sucessFunc(email);
+        successFunc(email);
     }
 
     if (tpassword === '') {
         errorFunc(password, 'Password cannot empty');
     } else {
-        sucessFunc(password);
+        successFunc(password);
     }
 })
 
